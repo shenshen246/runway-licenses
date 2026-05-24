@@ -1,0 +1,7 @@
+{
+    "download_url":  "https://github.com/shenshen246/runway-licenses/releases/download/v1.0.1/BUCHIYU_1.0.1_x64-setup.exe",
+    "released_at":  "2026-05-25T02:30:58",
+    "size_mb":  60.2,
+    "version":  "1.0.1",
+    "notes":  "v1.0.1 测试自动更新\n\n- 修复 @ 图片菜单点击无效\n- 修复编辑任务拖拽图片\n- 默认模型改为 Seedance 2.0\n- Kling O3 Pro/Std 新增 15s 时长\n- Seedance 2.0 新增 4s 时长\n- 任务标签默认空（不再加日期前缀）\n- 浏览器登录后自动抓取 cookie"
+}
