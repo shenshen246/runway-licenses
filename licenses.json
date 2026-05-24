@@ -4,5 +4,11 @@
     "note": "自用测试",
     "days": 365,
     "expiry": "?"
+  },
+  "bcca5e48c8a887b4": {
+    "code": "TD-MTgxMTE1NTY2NnxjdXN0b21lcnxiY2NhNWU0OGM4YTg4N2I0-QJ6z6oCHTTzr=",
+    "note": "customer",
+    "days": 365,
+    "expiry": "2027-05-24"
   }
 }
