@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
-  "download_url": "https://github.com/shenshen246/runway-licenses/releases/download/v1.0.3/BUCHIYU_1.0.3_x64-setup.exe",
+  "version": "1.0.4",
+  "download_url": "https://github.com/shenshen246/runway-licenses/releases/download/v1.0.4/BUCHIYU_1.0.4_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.3 修复自动更新\n\n- 修复升级时检测不到老安装的问题（改用注册表 DisplayName 匹配）\n- 静默升级时不再弹「env.zip not found」错误框\n- 兼容多种安装位置（自定义路径也能识别）",
-  "released_at": "2026-05-25T03:05:02.843822"
+  "notes": "v1.0.4 新建任务弹窗优化\n\n- @图片N 引用语法：@1 改为更直观的 @图片1\n- 新建任务弹窗：当前选中图片放大显示（180×180）\n- 新建任务弹窗：历史图片默认折叠，点击展开\n- 选中图片上叠加 \"@图片N\" 标签，更直观",
+  "released_at": "2026-05-25T03:21:02.372367"
 }
