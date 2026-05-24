@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "download_url": "https://github.com/shenshen246/runway-licenses/releases/download/v1.0.2/BUCHIYU_1.0.2_x64-setup.exe",
+  "version": "1.0.3",
+  "download_url": "https://github.com/shenshen246/runway-licenses/releases/download/v1.0.3/BUCHIYU_1.0.3_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.2 优化体验\n\n- 修复编辑任务时拖拽图片无效\n- 修复重做任务时图片丢失\n- 创建任务标签改为可选（不再强制日期前缀）\n- 浏览器登录后自动抓取 Cookie + Team Slug\n- 主账号支持「浏览器登录」和「测试」按钮\n- Kling O3 Pro / Standard 时长新增 15s\n- Seedance 2.0 时长新增 4s\n- 默认模型改为 Seedance 2.0\n- 自动更新检查更稳定",
-  "released_at": "2026-05-25T02:51:27.022172"
+  "notes": "v1.0.3 修复自动更新\n\n- 修复升级时检测不到老安装的问题（改用注册表 DisplayName 匹配）\n- 静默升级时不再弹「env.zip not found」错误框\n- 兼容多种安装位置（自定义路径也能识别）",
+  "released_at": "2026-05-25T03:05:02.843822"
 }
