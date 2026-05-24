@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4",
-  "download_url": "https://github.com/shenshen246/runway-licenses/releases/download/v1.0.4/BUCHIYU_1.0.4_x64-setup.exe",
-  "size_mb": 60.2,
-  "notes": "v1.0.4 新建任务弹窗优化\n\n- @图片N 引用语法：@1 改为更直观的 @图片1\n- 新建任务弹窗：当前选中图片放大显示（180×180）\n- 新建任务弹窗：历史图片默认折叠，点击展开\n- 选中图片上叠加 \"@图片N\" 标签，更直观",
-  "released_at": "2026-05-25T03:21:02.372367"
+    "version":  "1.0.4",
+    "download_url":  "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.4/BUCHIYU_1.0.4_x64-setup.exe",
+    "size_mb":  60.2,
+    "notes":  "v1.0.4 新建任务弹窗优化\n\n- @图片N 引用语法：@1 改为更直观的 @图片1\n- 新建任务弹窗：当前选中图片放大显示（180×180）\n- 新建任务弹窗：历史图片默认折叠，点击展开\n- 选中图片上叠加 \"@图片N\" 标签，更直观",
+    "released_at":  "2026-05-25T03:21:02.372367"
 }
