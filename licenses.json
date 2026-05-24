@@ -1,14 +1,1 @@
-{
-  "7717e0ea508244c1": {
-    "code": "TD-MTgxMTE0ODgyOXzoh6rnlKjmtYvor5V8NzcxN2UwZWE1MDgyNDRjMQ-37bWCW3Nb8ID=",
-    "note": "自用测试",
-    "days": 365,
-    "expiry": "?"
-  },
-  "bcca5e48c8a887b4": {
-    "code": "TD-MTgxMTE1NTcwOXxjdXN0b21lcnxiY2NhNWU0OGM4YTg4N2I0-sLsNSnniSIeH=",
-    "note": "customer",
-    "days": 365,
-    "expiry": "2027-05-24"
-  }
-}
+{}
