@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.5",
-    "download_url":  "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.5/BUCHIYU_1.0.5_x64-setup.exe",
-    "size_mb":  60.2,
-    "notes":  "v1.0.5 修复任务提交失败\n\n- 修复\"找不到 Generate 按钮\"导致的任务失败\n- 提交按钮匹配规则升级（精确匹配 + aria-label + 右下角兜底）\n- DOM 加载慢时自动重试 3 次（每次间隔 3 秒）\n- 提升对 Runway 页面改版的兼容性",
-    "released_at":  "2026-05-25T12:03:03.742342"
+  "version": "1.0.6",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.6/BUCHIYU_1.0.6_x64-setup.exe",
+  "size_mb": 60.2,
+  "notes": "v1.0.6 更新通知更醒目\n\n- 修复版本号有时显示 \"v1.0\"（改成后端注入，永远准确）\n- 启动 2 秒内自动检查更新（之前 5 秒）\n- 发现新版自动弹出顶部紫色通告条，无法错过\n- 同时自动弹出更新弹窗，看清更新内容",
+  "released_at": "2026-05-25T12:31:28.676976"
 }
