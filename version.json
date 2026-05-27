@@ -1,7 +1,7 @@
 {
-  "version": "1.0.6",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.6/BUCHIYU_1.0.6_x64-setup.exe",
+  "version": "1.0.7",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.7/BUCHIYU_1.0.7_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.6 更新通知更醒目\n\n- 修复版本号有时显示 \"v1.0\"（改成后端注入，永远准确）\n- 启动 2 秒内自动检查更新（之前 5 秒）\n- 发现新版自动弹出顶部紫色通告条，无法错过\n- 同时自动弹出更新弹窗，看清更新内容",
-  "released_at": "2026-05-25T12:31:28.676976"
+  "notes": "﻿v1.0.7 修复：任务未完成就被标记为成功的问题\n- 重写完成检测逻辑，导航到任务专属 session 页，消除侧边栏其他视频的干扰\n- 优先检测「仍在生成中」信号（Cancel 按钮 / 百分比进度条），确保任务真正完成才标记成功\n- 只有主内容区的大视频（>=200px）才触发完成，不再被侧边栏小缩略图误触发",
+  "released_at": "2026-05-27T21:24:01.182489"
 }
