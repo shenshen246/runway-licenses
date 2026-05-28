@@ -1,7 +1,7 @@
 {
-  "version": "1.0.8",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.8/BUCHIYU_1.0.8_x64-setup.exe",
+  "version": "1.0.9",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.9/BUCHIYU_1.0.9_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.8 修复：\n1. 批量导入：识别\"镜头01/分镜01/Cut1\"等前缀（之前只支持\"镜1\"，\"镜头\"格式被卡）\n2. 自动更新：先 taskkill 强杀 backend.exe 子进程再装，解决\"装完没更新成功\"问题\n3. 任务完成检测：导航到任务专属 session 页面，消除侧边栏其他视频的干扰\n4. 完成判定增加 Cancel 按钮 / 百分比进度条检测，确保任务真正完成才标记成功\n5. 只有主内容区的大视频（>=200px）才触发完成，不再被侧边栏小缩略图误触发\n\n注意：从 v1.0.6/v1.0.7 升级，旧版的更新代码有 BUG 会装不上，需手动一次升级（任务管理器结束 backend.exe 后双击 setup.exe）。v1.0.8 之后所有自动更新都会正常。",
-  "released_at": "2026-05-28T10:50:47.584557"
+  "notes": "v1.0.9 关键修复：\n\n1. 【任务完成检测】彻底重写 — 解决\"几分钟就显示成功\"的误判\n   - 不再导航到 sessions 页（导致看到其他任务的视频被误判完成）\n   - 不再每次轮询都刷新页面（导致页面反复闪烁）\n   - 完成判定改为严格匹配本任务的 runway_id（最强信号）\n   - 或要求主区大视频 + Download 按钮同时存在\n   - Cancel 按钮 / 0-99% 进度 / \"Generating\" 文字 → 立刻判定为生成中\n\n2. 【页面不再反复刷新】检测器现在依赖 RunwayML React 自动更新状态，\n   不主动 reload/navigate，肉眼可见的\"网页一直重复打开\"现象消失。\n\n升级方法（从 v1.0.8 升级）：\n  自动更新已修复，点「立即更新」即可。",
+  "released_at": "2026-05-28T12:25:06.154573"
 }
