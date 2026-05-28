@@ -1,7 +1,7 @@
 {
-  "version": "1.0.11",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.11/BUCHIYU_1.0.11_x64-setup.exe",
+  "version": "1.0.12",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.12/BUCHIYU_1.0.12_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.11 更新：\n\n【新增】浏览器窗口可隐藏/调大小（设置 ⚙️ 里）\n  - 隐藏浏览器：完全 headless 后台跑，不弹任何窗口\n  - 窗口大小：5 档可选（800×600 / 1024×720 / 1280×800 / 1440×900 / 最大化）\n  - 默认 1280×800，不再强制最大化抢屏\n  - 注意：改设置后停止再启动 runner 才生效\n\n【修复】未登录账号不再炸开 —— 解决\"加新账号没登录就疯狂跳网页 + 重复提交\"\n  - 启动时验证账号登录态，60 秒内没登录会跳过此账号\n  - 任务跑过程中页面被踢回登录页 → 任务退回 pending（不再误标失败）\n  - 账号连续 3 次提交失败自动从账号池踢出\n  - 等待登录超时从 300s → 60s（不再卡 5 分钟）\n\n【修复】Kling 3.0 4K / Pro 时长加 15s\n\n【优化】开发模式后端日志直显终端（源码运行），客户版仍静默",
-  "released_at": "2026-05-28T18:26:28.195887"
+  "notes": "v1.0.12 更新：\n\n【新增】支持上传视频参考（适用于 Seedance 2.0 等支持视频参考的模型）\n  - 任意上传按钮现在都能选 MP4 / MOV / WebM 视频\n  - 素材库视频缩略图鼠标悬停自动播放预览，带 🎬 VIDEO 标签\n  - 图片和视频在 @ 提及里分别独立编号：@图片1 @图片2 @视频1 @视频2\n  - 输入 @视频 / @图片 可分别过滤下拉菜单\n  - 单文件上限从 50MB 提到 200MB\n\n【修复】手动新增任务块的上传按钮点一下弹两次窗口\n  - 根因：input 已透明铺满 div，又给 div 加了 onclick 重复触发\n  - 改 input 为 display:none，只靠 div 触发一次",
+  "released_at": "2026-05-28T21:04:21.377823"
 }
