@@ -1,7 +1,7 @@
 {
-  "version": "1.0.10",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.10/BUCHIYU_1.0.10_x64-setup.exe",
+  "version": "1.0.11",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.11/BUCHIYU_1.0.11_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.10 关键修复：\n\n1. 【任务被误判失败 - 多图模式】\n   多图/首尾帧模式下提交页 React 不会推送状态，导致检测器持续 unknown\n   最后超时被错判为失败（实际视频可能早已生成完）。\n   新策略：连续 unknown 时分级触发刷新\n     - 连续 2 次 unknown → F5 刷新当前页（让 React 重渲染）\n     - 连续 4 次 unknown → 导航到 sessionId 专属 URL\n   任何明确信号（进度/完成/失败）立刻重置计数。\n\n2. 【停止后再开始无效】\n   停止后 runner 需要 10-20 秒优雅关闭浏览器（每账号一个 context），\n   但启动逻辑只等 8 秒就启动新 runner，结果老 runner 还锁着 profile，\n   新 runner 启动失败。改为等 30 秒。\n\n3. 【日志增强】\n   检测状态日志现在显示 streak 计数，便于排查\"任务为什么卡住\"。",
-  "released_at": "2026-05-28T16:15:11.052142"
+  "notes": "v1.0.11 更新：\n\n1. 【时长选项补全】Kling 3.0 4K / Kling 3.0 Pro 现在支持 15s\n   （之前漏了，只有 5s / 10s）\n\n2. 【开发模式日志】跑源码时后端日志直接显示在启动终端，\n   方便排错；客户用的打包版仍然完全静默，不弹黑窗。",
+  "released_at": "2026-05-28T16:36:34.759366"
 }
