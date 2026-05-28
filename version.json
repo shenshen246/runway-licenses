@@ -1,7 +1,7 @@
 {
-  "version": "1.0.12",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.12/BUCHIYU_1.0.12_x64-setup.exe",
+  "version": "1.0.13",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.13/BUCHIYU_1.0.13_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.12 更新：\n\n【新增】支持上传视频参考（适用于 Seedance 2.0 等支持视频参考的模型）\n  - 任意上传按钮现在都能选 MP4 / MOV / WebM 视频\n  - 素材库视频缩略图鼠标悬停自动播放预览，带 🎬 VIDEO 标签\n  - 图片和视频在 @ 提及里分别独立编号：@图片1 @图片2 @视频1 @视频2\n  - 输入 @视频 / @图片 可分别过滤下拉菜单\n  - 单文件上限从 50MB 提到 200MB\n\n【修复】手动新增任务块的上传按钮点一下弹两次窗口\n  - 根因：input 已透明铺满 div，又给 div 加了 onclick 重复触发\n  - 改 input 为 display:none，只靠 div 触发一次",
-  "released_at": "2026-05-28T21:04:21.377823"
+  "notes": "v1.0.13 修复：\n\n1. 【画面比例】之前完全没生效！选 9:16 提交后 RunwayML 仍用 16:9\n   - 根因：submit_task 流程漏了\"设比例\"这一步\n   - 现已新增 _set_ratio 函数，提交时自动点 RunwayML 的 Aspect ratio 按钮\n\n2. 【多图参考被拆成多个任务】\n   - 原：选 3 张图建任务 → 创建 3 个独立任务（每个 1 张）\n   - 现：选 3 张图建任务 → 创建 1 个任务（含 3 张多参考），走 Multi-reference 模式\n\n3. 【每账号窗口数】登录验证完关掉初始 about:blank 空白窗口\n   - 一个账号不再常驻 1 个无用空白窗口\n   - 想进一步减少：设置 → 每账号并发改成 1，每账号最多只 1 个窗口",
+  "released_at": "2026-05-28T22:00:11.123179"
 }
