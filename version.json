@@ -1,7 +1,7 @@
 {
-  "version": "1.0.9",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.9/BUCHIYU_1.0.9_x64-setup.exe",
+  "version": "1.0.10",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.10/BUCHIYU_1.0.10_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "v1.0.9 关键修复：\n\n1. 【任务完成检测】彻底重写 — 解决\"几分钟就显示成功\"的误判\n   - 不再导航到 sessions 页（导致看到其他任务的视频被误判完成）\n   - 不再每次轮询都刷新页面（导致页面反复闪烁）\n   - 完成判定改为严格匹配本任务的 runway_id（最强信号）\n   - 或要求主区大视频 + Download 按钮同时存在\n   - Cancel 按钮 / 0-99% 进度 / \"Generating\" 文字 → 立刻判定为生成中\n\n2. 【页面不再反复刷新】检测器现在依赖 RunwayML React 自动更新状态，\n   不主动 reload/navigate，肉眼可见的\"网页一直重复打开\"现象消失。\n\n升级方法（从 v1.0.8 升级）：\n  自动更新已修复，点「立即更新」即可。",
-  "released_at": "2026-05-28T12:25:06.154573"
+  "notes": "v1.0.10 关键修复：\n\n1. 【任务被误判失败 - 多图模式】\n   多图/首尾帧模式下提交页 React 不会推送状态，导致检测器持续 unknown\n   最后超时被错判为失败（实际视频可能早已生成完）。\n   新策略：连续 unknown 时分级触发刷新\n     - 连续 2 次 unknown → F5 刷新当前页（让 React 重渲染）\n     - 连续 4 次 unknown → 导航到 sessionId 专属 URL\n   任何明确信号（进度/完成/失败）立刻重置计数。\n\n2. 【停止后再开始无效】\n   停止后 runner 需要 10-20 秒优雅关闭浏览器（每账号一个 context），\n   但启动逻辑只等 8 秒就启动新 runner，结果老 runner 还锁着 profile，\n   新 runner 启动失败。改为等 30 秒。\n\n3. 【日志增强】\n   检测状态日志现在显示 streak 计数，便于排查\"任务为什么卡住\"。",
+  "released_at": "2026-05-28T16:15:11.052142"
 }
