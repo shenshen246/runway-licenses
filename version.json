@@ -1,8 +1,8 @@
 {
-  "version": "1.0.19",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.19/BUCHIYU_1.0.19_x64-setup.exe",
+  "version": "1.0.20",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.20/BUCHIYU_1.0.20_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "新增：生成完成自动提取视频\n- 任务生成完成后，自动在该任务自己的页面上抓取对应视频并填入\"结果\"，无需再手动点提取\n- 采用页面级精确绑定，杜绝把别的任务视频认错；万一取不到则留空，绝不填错的\n- 修复\"一键提取\"按时间猜测导致的张冠李戴问题，改为只按精确会话匹配",
+  "notes": "修复任务卡死问题\n- 修复某个任务的浏览器标签页偶发被关闭后，该任务一直刷\"检测出错\"卡死、白占并发名额的问题\n- 页面被关但任务已提交的，自动用会话ID重新打开页面继续监控，不会重复提交扣费\n- 页面被关且任务尚未提交的，自动退回重新排队",
   "min_version": "0.0.0",
-  "released_at": "2026-05-30T15:45:15.995643"
+  "released_at": "2026-05-30T19:22:08.325970"
 }
