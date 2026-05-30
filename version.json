@@ -1,8 +1,8 @@
 {
-  "version": "1.0.17",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.17/BUCHIYU_1.0.17_x64-setup.exe",
+  "version": "1.0.18",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.18/BUCHIYU_1.0.18_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "优化软件 BUG",
+  "notes": "优化软件BUG\n- 修复偶发的重复弹出无用窗口问题（任务结束后复用页面，不再每个任务新开窗口）\n- 修复任务未生成完成就被误判为\"成功\"的问题（页面仍在排队/生成时不再被旧视频误判）\n- 创建任务弹窗改为全屏，提示词字体加大、文本框加高，显示更完整",
   "min_version": "0.0.0",
-  "released_at": "2026-05-29T21:58:03.597297"
+  "released_at": "2026-05-30T14:15:51.663590"
 }
