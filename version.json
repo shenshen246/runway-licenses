@@ -1,8 +1,8 @@
 {
-  "version": "1.0.20",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.20/BUCHIYU_1.0.20_x64-setup.exe",
+  "version": "1.0.21",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.21/BUCHIYU_1.0.21_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "修复任务卡死问题\n- 修复某个任务的浏览器标签页偶发被关闭后，该任务一直刷\"检测出错\"卡死、白占并发名额的问题\n- 页面被关但任务已提交的，自动用会话ID重新打开页面继续监控，不会重复提交扣费\n- 页面被关且任务尚未提交的，自动退回重新排队",
+  "notes": "修复手动关窗口导致误重启\n- 修复批次跑完后手动关闭空白窗口时，被误判为\"浏览器无响应\"、整体重启并把正在生成的任务退回重排（重复扣费）的问题\n- 存活检测改为只看浏览器进程是否还在，关掉个别空白窗口不再触发重启\n- 每个账号最多只保留 1 个备用空白页，跑完后不再残留一堆空窗口",
   "min_version": "0.0.0",
-  "released_at": "2026-05-30T19:22:08.325970"
+  "released_at": "2026-05-30T23:13:05.797092"
 }
