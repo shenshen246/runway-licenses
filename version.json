@@ -1,8 +1,8 @@
 {
-  "version": "1.0.21",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.21/BUCHIYU_1.0.21_x64-setup.exe",
+  "version": "1.0.22",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.22/BUCHIYU_1.0.22_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "修复手动关窗口导致误重启\n- 修复批次跑完后手动关闭空白窗口时，被误判为\"浏览器无响应\"、整体重启并把正在生成的任务退回重排（重复扣费）的问题\n- 存活检测改为只看浏览器进程是否还在，关掉个别空白窗口不再触发重启\n- 每个账号最多只保留 1 个备用空白页，跑完后不再残留一堆空窗口",
+  "notes": "修复\"已完成却一直显示进行中\"\n- 修复任务在 RunwayML 已生成完，软件里却一直卡在\"进行中\"、也不自动提取的问题\n- 根因：判断是否还在生成时误读了左侧边栏其它会话的\"in queue/排队中\"字样\n- 改为只看右侧主显示区的状态，左侧会话列表不再干扰判定",
   "min_version": "0.0.0",
-  "released_at": "2026-05-30T23:13:05.797092"
+  "released_at": "2026-05-31T00:30:04.087664"
 }
