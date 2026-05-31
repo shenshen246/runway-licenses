@@ -1,8 +1,8 @@
 {
-  "version": "1.0.27",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.27/BUCHIYU_1.0.27_x64-setup.exe",
+  "version": "1.0.28",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.28/BUCHIYU_1.0.28_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "优化体验\n- 提示词被 RunwayML 内容政策拒绝（引用第三方/版权内容、已退积分）时，立刻判为失败并写明原因，不再长时间空等占用名额\n- 修复提交判定的一个漏洞：上传创建空会话后不再误判为\"已提交\"，被拦截时会重试或快速退回",
+  "notes": "修复重复生成\n- 修复个别情况下同一任务被点了两次生成、在同一会话里重复生成两个视频（重复扣费）的问题\n- 现在每个任务只点一次生成，点完轮询确认提交，绝不重复点击",
   "min_version": "0.0.0",
-  "released_at": "2026-05-31T21:19:36.847358"
+  "released_at": "2026-06-01T02:26:02.934578"
 }
