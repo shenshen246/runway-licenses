@@ -1,8 +1,8 @@
 {
-  "version": "1.0.24",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.24/BUCHIYU_1.0.24_x64-setup.exe",
+  "version": "1.0.25",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.25/BUCHIYU_1.0.25_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "优化体验",
+  "notes": "优化体验\n- 修复多图任务偶发跳进 Edit Studio 导致失败的问题\n- 时长低于模型最低支持时（如 Seedance 小于 4 秒）自动调整为最近的有效时长",
   "min_version": "0.0.0",
-  "released_at": "2026-05-31T11:35:26.619521"
+  "released_at": "2026-05-31T12:03:39.415051"
 }
