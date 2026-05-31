@@ -1,8 +1,8 @@
 {
-  "version": "1.0.22",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.22/BUCHIYU_1.0.22_x64-setup.exe",
+  "version": "1.0.24",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.24/BUCHIYU_1.0.24_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "修复\"已完成却一直显示进行中\"\n- 修复任务在 RunwayML 已生成完，软件里却一直卡在\"进行中\"、也不自动提取的问题\n- 根因：判断是否还在生成时误读了左侧边栏其它会话的\"in queue/排队中\"字样\n- 改为只看右侧主显示区的状态，左侧会话列表不再干扰判定",
+  "notes": "优化体验",
   "min_version": "0.0.0",
-  "released_at": "2026-05-31T00:30:04.087664"
+  "released_at": "2026-05-31T11:35:26.619521"
 }
