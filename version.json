@@ -1,8 +1,8 @@
 {
-  "version": "1.0.31",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.31/BUCHIYU_1.0.31_x64-setup.exe",
+  "version": "1.0.32",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.32/BUCHIYU_1.0.32_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "修复任务漏提交\n- 修复个别任务\"页面都准备好了但没点生成、卡在待生成\"的问题\n- 现在点完生成会确认是否真提交：没提交才安全补点一次，既不漏提交也不会重复生成",
+  "notes": "优化体验\n- 新增「复制N份」按钮：手动新增里可把同一条镜头一键复制成多份（提示词/时长/图片都一样）\n- 支持把视频文件直接拖拽到任务块/上传区（之前拖拽只接受图片）",
   "min_version": "0.0.0",
-  "released_at": "2026-06-01T16:58:38.838136"
+  "released_at": "2026-06-02T02:42:28.057736"
 }
