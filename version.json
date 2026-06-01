@@ -1,8 +1,8 @@
 {
-  "version": "1.0.29",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.29/BUCHIYU_1.0.29_x64-setup.exe",
+  "version": "1.0.30",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.30/BUCHIYU_1.0.30_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "优化体验\n- 修复更新完成后会弹出两个程序界面的问题，更新后只启动一个",
+  "notes": "新增：一键打开视频文件夹\n- 顶部新增「📂 视频文件夹」按钮，一键打开已提取视频所在的文件夹，不用再自己翻路径\n- 批量提取视频完成后会自动弹出该文件夹",
   "min_version": "0.0.0",
-  "released_at": "2026-06-01T02:30:50.660639"
+  "released_at": "2026-06-01T10:33:18.768682"
 }
