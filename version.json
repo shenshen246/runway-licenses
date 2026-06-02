@@ -1,8 +1,8 @@
 {
-  "version": "1.0.33",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.33/BUCHIYU_1.0.33_x64-setup.exe",
+  "version": "1.0.34",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.34/BUCHIYU_1.0.34_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "修复超长提示词无法提交\n- 提示词超过 RunwayML 上限 3500 字时会自动截断到 3500 字，确保能正常提交生成（之前超长会导致点了生成却不出视频、任务卡住）",
+  "notes": "优化体验\n- 把删除确认、重做、定时取消、复制份数等弹窗，从浏览器原生样式改为统一的美化弹窗，更专业好看",
   "min_version": "0.0.0",
-  "released_at": "2026-06-02T10:17:54.038903"
+  "released_at": "2026-06-02T10:27:59.733222"
 }
