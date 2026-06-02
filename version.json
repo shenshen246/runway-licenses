@@ -1,8 +1,8 @@
 {
-  "version": "1.0.36",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.36/BUCHIYU_1.0.36_x64-setup.exe",
+  "version": "1.0.37",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.37/BUCHIYU_1.0.37_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "修复时长设置失效\n- RunwayML 把时长控件从下拉改成了滑块，导致选了 15 秒却出 5 秒。现已支持滑块设置时长，并校验是否真正设置成功",
+  "notes": "优化体验\n- 修复时长设置失效（RunwayML 改成滑块后选 15 秒却出 5 秒）：现已支持滑块设置时长\n- 更新时自动关闭本软件相关进程（含后台与浏览器内核），不用再手动去任务管理器结束进程",
   "min_version": "0.0.0",
-  "released_at": "2026-06-02T21:29:49.637126"
+  "released_at": "2026-06-02T22:11:53.029839"
 }
