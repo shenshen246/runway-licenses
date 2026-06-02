@@ -1,8 +1,8 @@
 {
-  "version": "1.0.35",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.35/BUCHIYU_1.0.35_x64-setup.exe",
+  "version": "1.0.36",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.36/BUCHIYU_1.0.36_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "修复服务端报错不重试\n- 当 RunwayML 自己出错（\"There was an issue on our end\"，已退积分）时，任务会自动重新提交（最多重试 3 次），不再一直卡在\"进行中\"干等\n- 区分对待：内容政策违规仍判失败（不重试），服务端临时故障才自动重试",
+  "notes": "修复时长设置失效\n- RunwayML 把时长控件从下拉改成了滑块，导致选了 15 秒却出 5 秒。现已支持滑块设置时长，并校验是否真正设置成功",
   "min_version": "0.0.0",
-  "released_at": "2026-06-02T20:48:56.743801"
+  "released_at": "2026-06-02T21:29:49.637126"
 }
