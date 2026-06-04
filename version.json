@@ -1,8 +1,8 @@
 {
-  "version": "1.0.39",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.39/BUCHIYU_1.0.39_x64-setup.exe",
-  "size_mb": 60.2,
-  "notes": "优化软件功能，提升使用稳定性。",
+  "version": "1.0.40",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.40/BUCHIYU_1.0.40_x64-setup.exe",
+  "size_mb": 60.3,
+  "notes": "修复 @ 引用图片：现在在文字中间输入 @ 也能弹出图片/视频选择菜单。",
   "min_version": "0.0.0",
-  "released_at": "2026-06-04T10:59:56.353486"
+  "released_at": "2026-06-04T11:04:25.727174"
 }
