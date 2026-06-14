@@ -1,8 +1,8 @@
 {
-  "version": "1.0.41",
-  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.41/BUCHIYU_1.0.41_x64-setup.exe",
+  "version": "1.0.42",
+  "download_url": "https://gh-proxy.com/https://github.com/shenshen246/runway-licenses/releases/download/v1.0.42/BUCHIYU_1.0.42_x64-setup.exe",
   "size_mb": 60.2,
-  "notes": "新增「半自动」模式：开启后软件会自动把图片、提示词、参数都填好，停在生成前，等你手动点【提交】才真正生成，方便逐个确认、控制节奏。顶部按钮可一键开关。",
+  "notes": "主账号支持「🗑️ 清空」：可清掉主账号登录使其不再参与跑任务，方便改用可单独配代理的额外账号。",
   "min_version": "0.0.0",
-  "released_at": "2026-06-14T11:26:59.447925"
+  "released_at": "2026-06-14T12:12:43.503089"
 }
